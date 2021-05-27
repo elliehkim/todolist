@@ -46,3 +46,10 @@ body {
   z-index: -1;
   animation: fadein 0.5s linear;
 }
+
+@media (max-width: 750px) {
+  .bgImage {
+    object-fit: cover;
+    object-position: 30%;
+  }
+}
